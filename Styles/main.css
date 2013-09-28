@@ -1,0 +1,344 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	position: relative; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+}
+.page
+{ 
+	margin: 10px auto; 
+	width: 900px; 	
+}
+.body {
+	background: url(../Images/background_min.jpg) fixed left top no-repeat; 
+	overflow-x:auto;
+}
+
+@media all and ( min-width: 900px ) {
+	.body
+	{ 
+		background: url(../Images/background_max.jpg) fixed center top no-repeat; 
+		overflow-x:hidden;
+	}
+}
+.top {
+	height: 150px;
+	margin: 0 -20px 10px 20px;
+}
+.logo {
+	width: 17%;
+	height: auto;
+	float: left; 
+	opacity: 0.8;
+	margin: 0;
+}
+.title	{
+	width: 83%;
+	height: inherit;
+	float: right;
+	font-size: 120px; 
+	text-align: center; 
+	margin: 0;
+}
+.flags_top_container {
+	width: 100%;
+	padding-left: 150px;
+	float: left;
+	clear: both;
+}
+.small_flag {
+	opacity: 0.75;
+	float: left;
+}
+.flag_1 {
+	margin-left: 107px;
+	margin-top: -97px;
+	-webkit-transform: rotate(-13deg);
+}
+.flag_2 {
+	margin-left: 234px;
+	margin-top: -163px;
+	-webkit-transform: rotate(5deg);
+}
+.flag_3 {
+	margin-left: 301px;
+	margin-top: -57px;
+	-webkit-transform: rotate(-4deg);
+}
+.flag_4 {
+	margin-left: 408px;
+	margin-top: -161px;
+	-webkit-transform: rotate(13deg);
+}
+.flag_5 {
+	margin-left: 453px;
+	margin-top: -78px;
+	-webkit-transform: rotate(8deg);
+}
+.flag_6 {
+	margin-left: 537px;
+	margin-top: -163px;
+	-webkit-transform: rotate(-9deg);
+}
+.flag_7 {
+	margin-left: 641px;
+	margin-top: -82px;
+	-webkit-transform: rotate(10deg);
+}
+.line {
+	border-radius: 2px;
+	margin: 3px 0 3px 0;
+}
+.bottom {		
+	text-align: center;
+	color: rgb(156, 152, 152);
+	font-size: 12px;
+}
+.content_top {
+	background-image: url(../Images/divide_top.png);
+	background-repeat: repeat-x;
+	height: 23px;
+}
+.content_bottom {
+	background-image: url(../Images/divide_bottom.png);
+	background-repeat: repeat-x;
+	height: 23px;
+}
+.content_main h1 {
+	color: rgb(24, 31, 24);
+	text-align: center;
+}
+.content_main h2 {
+	color: rgb(31, 51, 31);
+	text-align: center;
+}
+.content_main h3 {
+	color: rgb(42, 70, 43);
+	text-align: center;
+	margin: 5px 0 25px 0;
+}
+.content_main h4 {
+	color: rgb(42, 70, 43);
+	margin: 5px 13px 25px 13px;
+}
+.content_main p {
+	color: rgb(55, 58, 41);
+	text-align: justify;
+	margin: 5px 13px 15px 13px;
+}
+.content_main a {
+	padding-left: 10px;
+	font-size: small;
+	/*text-decoration: none;
+	color: inherit;*/
+}
+.content_main .doc_list {
+	margin-top: 40px 0px 0px 10px;
+}
+.doc_list ul {
+    	list-style-type: none;
+}
+.doc_list .doc_item {
+	color: rgb(55, 58, 41);
+	font-size: medium;
+	margin: 0px 0px 5px 20px;
+}
+.content_main .regulation_text {
+	font-size: medium;
+	font-weight: normal;
+	color: rgb(5, 39, 16);
+}
+.table_flags {
+	width: 100%;
+	margin: 10px 10px 10px 10px;
+}
+.subjects span {
+	display: block;
+	font-size: large;
+	color: rgb(5, 39, 16);
+}
+.subjects a {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	display: block;
+	font-size: large;
+	color: rgb(5, 39, 16);
+}
+.content_main .county {
+	margin: 0px 0px 0px 40px;
+	color: rgb(68, 66, 8);
+	font-size: medium;
+}
+.content_main .sub_link {
+	font-size: medium;
+	font-style: italic;
+	margin: 5px 0px 0px 10px;
+}
+.content_main .person {
+	display: block;
+	margin: 3px 0px 5px 10px;
+	font-size: large;
+	font-weight: normal;
+}
+.content_main .description {
+	font-size: medium;
+	font-style: italic;
+	color: rgb(41, 115, 117);
+}
+.important_text {
+	margin: 20px 0px 15px 0px;
+	font-weight: bold;
+	font-size: large;
+	display: block;
+}
+.content_main img {
+	margin: 3px 3px 3px 3px;
+}
+.unvisible {
+	display: none;
+}
+.visnyk_subscription {
+	margin: 25px 0px 0px 20px;
+}
+.visnyk_subscription_info {
+	margin: 10px 0px 0px 15px;
+}
+.visnyk_subscription_info input{
+	margin: 0 5px 0 10px;
+	width: 175px;
+}
+.visnyk_subscription_info input[type=submit]{
+	font-size: medium;
+}
+.admin {
+	margin: 0px 0px 10px 20px;
+}
+.admin .data_block td {
+	padding: 3px 3px 3px 3px;
+	vertical-align: top;
+}
+.admin .data_block input{
+	width: 100%;
+	min-height: 24px;
+}
+/*@media all and ( line-height: 600px ) {
+	.content_main {
+		height: 400px;
+}
+}*/
+/*
+.pl_s {
+	margin-left: 37px;
+	margin-top: -7px;
+	-webkit-transform: rotate(-13deg);
+}
+.ua_s {
+	margin-left: 52px;
+	margin-top: 0px;
+	-webkit-transform: rotate(5deg);
+}
+.ca_s {
+	margin-left: 36px;
+	margin-top: -4px;
+	-webkit-transform: rotate(-12deg);
+}
+.hr_s {
+	margin-left: 60px;
+	margin-top: -22px;
+	-webkit-transform: rotate(15deg);
+}
+.rs_s {
+	margin-left: 100px;
+	margin-top: 0px;
+	-webkit-transform: rotate(5deg);
+}
+.sk_s {
+	margin-left: 60px;
+	margin-top: -10px;
+	-webkit-transform: rotate(-7deg);
+}
+.us_s {
+	margin-left: 45px;
+	margin-top: -4px;
+	-webkit-transform: rotate(10deg);
+}*/
+/*
+body			{ position:relative; min-height:100%; }
+html,body		{ height:100%;}
+.page			{ margin: 0 auto; min-height:100%; width: 900px; }
+*html .page { 
+height: 100%; 
+}
+.image {height: 50px; width: 50px; opacity: 0.7;}
+h2				{ margin:5px 0px; text-indent: 2em;}
+hr				{ margin:5px 0px;}
+
+
+.sfulo			{width:750px;height:150px;float:right;}
+.shadow 		{text-shadow:1px 1px 10px #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;}
+
+.hborder		{width:900px; height:30px; background-image:url(../Images/divide_top.png);
+				font-size:20px; font-weight:bold; text-align:center; }
+.hborder_b		{z-index:1; width:900px; height:20px; margin: 0 auto; background-image:url(../Images/divide_top.png);
+				font-size:20px; text-align:center; }
+.text_white		{color:#FFF; font-size:18px;text-shadow:1px 1px 10px #000,-1px -1px 0 #000,
+				1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;}
+
+ul				{ list-style-type:none;}
+.mrg			{ margin-left:15px; }
+.img				{ box-shadow: 0px 0px 10px #000; margin-right:3px;}
+
+li a 				{ text-decoration:none; color:#FFF;}
+li a:hover			{ color:#FF0; cursor:pointer; margin-left:3px;}
+.important			{ color:#F00;}
+
+.center			{width:900px;height:100px;}
+.menu			{width:200px;height:400px;float: left; font-weight:bold; color:#FFF;}
+.content		{width:700px;height:100px;float:right;}
+
+.footer			{width:900px;height:100px;}
+.hFooter		{height:50px; clear:both;}
+.footer			{position:fixed; margin: 0 auto; margin-top:-50px; width:100%; height:50px;}
+.inner_footer	{position:relative; background:#FFF; width:900px; height:50px; margin: 0 auto;}
+
+.flag_div		{position:relative; margin: 0 auto; width: 900px; z-index:2;}
+.flag			{position:absolute; width:50px; height:34px;  box-shadow: 0px 0px 10px #000; z-index:2; }
+.flag:hover		{ margin-top:-3px;}
+
+#Canada			{
+	top: 111px;
+	left: 190px;
+	background:url(../Images/flags/Canada.jpg);
+}
+#Croatia		{
+	top: 111px;
+	left: 381px;
+	background:url(../Images/flags/Croatia.jpg);
+}
+#Ukraine		{
+	top: 109px;
+	left: 722px;
+	background:url(../Images/flags/Ukraine.jpg);
+}
+#USA			{
+	top: 112px;
+	left: 820px;
+	background:url(../Images/flags/USA.jpg);
+}
+#Serbia			{
+	top: 110px;
+	left: 498px;
+	background:url(../Images/flags/Serbia.jpg);
+} 
+#Poland			{
+	top: 110px;
+	left: 283px;
+	background:url(../Images/flags/Poland.jpg);
+}
+#Slovakia		{
+	top: 112px;
+	left: 616px;
+	background:url(../Images/flags/Slovakia.jpg);
+}
+*/
